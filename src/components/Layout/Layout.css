@@ -1,3 +1,16 @@
-.Content{
-    margin-top:10px;
+
+.toolbar{
+  background-color: rgb(92, 223, 175);
+  text-align: center;
+  height: 40px;
+  font-size: 30px;
 }
+.Layout {
+  background-color: rgb(14, 15, 15);
+  margin-left: 30px;
+}
+.Content {
+  /* margin-top: 10px; */
+  background-color: rgb(92, 196, 196);
+}
+
