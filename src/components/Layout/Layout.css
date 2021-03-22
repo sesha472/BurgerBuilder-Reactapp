@@ -1,5 +1,5 @@
 
-.toolbar{
+/* .toolbar{
   background-color: rgb(92, 223, 175);
   text-align: center;
   height: 40px;
@@ -8,9 +8,9 @@
 .Layout {
   background-color: rgb(14, 15, 15);
   margin-left: 30px;
-}
+} */
 .Content {
-  /* margin-top: 10px; */
+  margin-top: 1px;
   background-color: rgb(92, 196, 196);
 }
 

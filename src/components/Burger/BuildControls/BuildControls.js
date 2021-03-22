@@ -9,11 +9,13 @@ const controls=[
 ]
 const buildControls=(props)=>(
       <div className={classes.BuildControls}>
+        
          <p>current price:<strong>{props.price.toFixed(2)}</strong></p>
+            
              { controls.map(ctrl=>(
              <BuildControl
             key={ctrl.label}
-              label={ctrl.label}
+              labelname={ctrl.label}
         //   the bellow calculation from 133 module
          added={()=>props.ingredientAdded(ctrl.type)} 
         removed={()=>props.ingredinetRemoved(ctrl.type)}

@@ -1,0 +1,15 @@
+.Logo{
+    background-color: cornsilk;
+    border-radius: 5px;
+    padding: 8px;
+    height: 80%;
+    box-sizing: border-box;
+     
+}
+
+.Logo img{
+ 
+    height: 100%;
+
+
+}

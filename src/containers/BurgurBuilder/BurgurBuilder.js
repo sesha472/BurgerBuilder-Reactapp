@@ -93,11 +93,12 @@ const sum=Object.keys(ingredients).map(igkey=>{
                 </Modal>
 
                 <Burger ingredients={this.state.ingredients}/>
+
                <BuildControls 
-               ingredientAdded={this.addIngredingHandler}
-              ingredinetRemoved={this.removeIngredientHandler} 
+                  ingredientAdded={this.addIngredingHandler}
+                  ingredinetRemoved={this.removeIngredientHandler} 
                disabled={disableinfo}
-         purchasable={this.state.purchasable}
+           purchasable={this.state.purchasable}
          ordered={this.purchaseHandler}
          price={this.state.totalPrice}
 
